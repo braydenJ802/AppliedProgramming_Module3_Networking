@@ -21,10 +21,3 @@ func _Peer_Connected(player_id):
 	
 func _Peer_Disconnected(player_id):
 	print("User " + str(player_id) + " Disconnected")
-
-#
-#remote func FetchScoreBoard(scores):
-#	var player_id = get_tree().get_rpc_sender_id()
-#	var score_board = ServerData.
-#	rpc_id(player_id, "ReturnScoreBoard", scores, requester)
-#	print("sending" + str(score_board) + " to player")
